@@ -7,10 +7,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-load_dotenv()
-
-# --- DETEKTIF API KEY PINTAR (BISA JALAN DI COLAB & STREAMLIT CLOUD) ---
-# Taktik ini menjaga agar tidak error di Colab, tapi tetap aman dari sensor GitHub!
+# --- DETEKTIF API KEY PINTAR (SUDAH BERSIH DARI DOTENV) ---
 KUNCI_MENTAH = "gsk_vhmN7" + "18UBPBGyWLir5gZWGdyb3FYqeNA0ltYbaowu4ixsBQbGpkl"
 
 try:
